@@ -1,0 +1,23 @@
+.stories-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  background-color: black;
+  z-index: 1000;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.story-thumbnail {
+  width: 60px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+  cursor: pointer;
+  border: 2px solid white;
+}
